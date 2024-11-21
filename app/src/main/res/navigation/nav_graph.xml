@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+    <fragment
+        android:id="@+id/signupPhysicalInfoFragment"
+        android:name="com.example.personalhealthtracker.SignupPhysicalInfo"
+        android:label="Signup Physical Info">
+
+        <!-- Arguments being passed from previous fragment -->
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="password"
+            app:argType="string" />
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
